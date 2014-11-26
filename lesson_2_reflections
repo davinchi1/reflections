@@ -1,0 +1,9 @@
+Now that you have your workspace set up, what do you want to try using Git for?
+For making websites and databases
+
+What happens when you initialize a repository? Why do you need to do it?
+You create a Git file that works with git bash to track verions. This is what is used for version control
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area only holds the files for a git commit. It allows you to track changes to file you only want to track
+
