@@ -7,3 +7,17 @@ You create a Git file that works with git bash to track verions. This is what is
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area only holds the files for a git commit. It allows you to track changes to file you only want to track
 
+How can you use the staging area to make sure you have one commit per logical change?
+Do a git diff to check the difference between the staging area and the working files
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When major change is being applied to the project. A significant divergence, allows for tracking of changes. This helps to protect the core work by separating diffirences
+
+How do the diagrams help you visualize the branch structure?
+Gets me to understand how the branching works and how commits are removed or lost when reverted
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+You merge all the new changes into the document and leave out the old ones that weren't kept. Because the merge reuslts in one string.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Well automatic merges save time but if conflicts arise, you have to fix those before.
